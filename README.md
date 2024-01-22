@@ -27,9 +27,11 @@ See Above for ways to get a hold of me.
 
 ## Script ease
 Script has easy to read and understand language so you always make the right decisions
+
 ![Easy-Script-Usage](icons/2024-01-16_14-35_1.png)
 ![Easy-Script-Usage2](icons/2024-01-16_14-35.png)
 ![Easy-Script-Usage3](icons/2024-01-16_17-13.png)
+
 ## Feedback
 
 If you have any feedback, please reach out to me at [Email](blacklisthacker@protonmail.com)
@@ -79,7 +81,7 @@ MySecretVault
 
 💬 Ask me about anything
 
-📫 How to reach me Email: blacklisthacker@protonmail.com
+📫 How to reach me [Email](blacklisthacker@protonmail.com)
 
 ⚡️ Fun fact I am actually a Professional dog trainer.
    [My website](https://good-happy-puppy.com)

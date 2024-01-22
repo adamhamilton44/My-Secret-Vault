@@ -26,7 +26,7 @@ See Above for ways to get a hold of me.
 - BONUS: Instructions on how to hide the key in a .JPG file
 
 ## Script ease
-Script has easy to read and understand language so you always make the right decisions
+Script has easy to read and understand language so you always make the right decisions.
 
 ![Easy-Script-Usage](icons/2024-01-16_14-35_1.png)
 ![Easy-Script-Usage2](icons/2024-01-16_14-35.png)
@@ -38,9 +38,14 @@ If you have any feedback, please reach out to me at [Email](blacklisthacker@prot
 
 
 ## Optimizations
+
 Script will first base 64 encode a copy of your file, It will not use the file, only copy it.
+
 Next i use ccrypt to encrypt the copied file. Then we use tomb to encrypt a 1 GB (1024 Mib) space from the home directory and encrypt it with a password and key.
-Finally the script will place the file in the directory close the directory and as far as anyone knows there is nothing to see here. All together there are 2 encrypted methods done and 1 method of encoding.
+
+Finally the script will place the file in the directory, close the directory, and as far as anyone knows there is nothing to see here. 
+All together there are 2 encryption methods done and 1 method of encoding.
+
 To help the user i supply a text file with the needed information to de-crypt the directory and file with easy to copy paste instructions
 
 ## Run Locally
@@ -58,21 +63,25 @@ Copy MySecretVault to $PATH
 
 ```bash
   sudo cp MySecretVault /usr/local/bin/MySecretVault
-
 ```
+
 Install Dependencies
-Script will automatically check and install dependencies
+Script will automatically check and install dependencies, but if you like doing things yourself then:.
+
 ```bash
   sudo apt update
   sudo apt install tomb -y
   sudo apt install ccrypt -y
 ```
 
-Run anywhere
+Run from anywhere
+```bash
 MySecretVault
+```
 
 ## Tested On
 - Kali-linux 6.5.0
+
 - Should work on any Debian and Ubuntu system using the apt package manager
 
 ## 🚀 About Me
